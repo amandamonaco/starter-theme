@@ -1,3 +1,19 @@
+/*!
+Theme Name: Starter Theme
+Theme URI: https://github.com/amandamonaco
+Author: Amanda Monaco Web Development
+AuthorURI: http://amandamonaco.ca
+Description: themeDescription
+Version: 1.2
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Text Domain: themeTextDomain
+*/
+
+/* FONTS
+-------------------------- */
+// Uncomment/use this file for self-hosted web fonts
+// @import "fonts/all";
 
 /* RESET & BASE
 ------------------ */
@@ -5,16 +21,35 @@
 @import "mixins";
 @import "base";
 
-/* =LAYOUTS & CONTENT
+/* =LAYOUTS
 ------------------ */
 @import "layout";
+@import "header";
+@import "nav";
+@import "footer";
+
+/* =CONTENT
+------------------ */
 @import "typography";
+@import "forms";
 
 /* =COMPONENTS
 ------------------ */
-@import "components/carousel";
+/* Includes password protection for pages and posts, 404 page */
+@import "components";
 
-/* =PAGE-SPECIFIC
+
+/* =PROJECT PAGES SPECIFIC
 ------------------ */
-@import "pages/home";
-@import "pages/about";
+@import "content";
+@import "pages/all";
+// Uncomment if you have a custom home page
+// @import "pages/home";
+
+/* =BLOG SPECIFIC
+------------------ */
+@import "blog/paging";
+@import "blog/widgets";
+@import "blog/comments";
+@import "blog/content";
+@import "blog/comment_form";

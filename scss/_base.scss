@@ -1,24 +1,25 @@
-// Sizes
-$max-width: 1000px;
+/* BASE VARIABLES
+ *******************/
+
+/* Sizes */
+$max-width: 1800px;
 $footerheight: 50px;
 
-// Colors
-$gray: #555;
-$hotpink: #dc2365;
-$navy: #162d62;
-
-$text: $gray;
-$links: $hotpink;
-$hover: $navy;
+/* Colors */
+$text: #555;
+$links: blue;
+$hover: red;
 
 $bg: #FFF;
 
-// Fonts
+/* Fonts */
 $main: sans-serif;
 
-// Borders
-$border: 1px solid $navy;
+/* Borders */
+$border: 1px solid #000;
 
-// Media Queries
-$m: 740px;
-$s: 500px;
+/* Breakpoints */
+$cap: 1920px;
+$m: 850px;
+$s: 740px;
+$xs: 500px;
