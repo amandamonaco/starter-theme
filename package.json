@@ -1,0 +1,14 @@
+{
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amandamonaco/wordpress-test"
+    },
+    "dependencies": {
+        "gulp": "*",
+        "gulp-ruby-sass": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-minify-css": "*",
+        "gulp-livereload": "*"
+    }
+}
+
