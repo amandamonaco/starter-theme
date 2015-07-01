@@ -1,4 +1,4 @@
 Starter Theme Sample
 ==================================
 
-Basic wordpress starter theme
+This is my awesome WordPress starter theme!
